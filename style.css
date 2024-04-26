@@ -1,0 +1,109 @@
+:root{
+    --clr-neutral: #ccc;
+    --clr-neutral2: #F6F6F6;
+}
+*{
+    padding: 0;
+    box-sizing: border-box;
+}
+.card{
+    height: 100%;
+}
+
+.card-container{
+    padding-bottom: 16px;
+}
+
+.imgMask img{
+    
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.imgMask{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    border-radius: 50%;
+    overflow: hidden;
+    
+}
+
+.cardHead{
+    display: flex;
+    gap: 16px;
+}
+
+.imgContainer{
+    padding: 8px 0 0 8px;
+}
+
+.countryName{
+    font-size: 1.5rem;
+    font-weight:600;
+    /* color:red; */
+}
+.countryName span{
+    font-size:1rem;
+    color: var(--clr-neutral);
+    font-weight: 300;
+}
+
+.infoContainer{
+    padding-top: 16px;
+    /* background-color: red; */
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-start; */
+    padding: 0;
+    font-size: .8rem;
+}
+
+.card-body p{
+    line-height: .5;
+}
+
+.buttonSection{
+    margin: 16px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-box{
+    display: flex;
+    justify-content: center;
+    margin: 32px auto;
+}
+
+.searchRow{
+    width: 50%;
+    display: flex;
+    height: 40px;
+    border-radius: 8px;
+    overflow: hidden;
+    
+}
+
+.searchInput{
+    flex: 1;
+    border: transparent;
+    outline: none;
+    background-color: var(--clr-neutral2);
+    padding: 8px 16px;
+}
+
+.searchRow button{
+    border: transparent;
+    outline: none;
+    padding: 8px 16px;
+    background-color: var(--clr-neutral2);
+
+}
+
+.done{
+    display:none;
+}
